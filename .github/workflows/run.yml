@@ -13,5 +13,5 @@ jobs:
         CODETY_TOKEN: ${{ secrets.CODETY_TOKEN }}
     steps:
       - uses: actions/checkout@main
-#      - run: ls -ls
+      - run: codety
 
