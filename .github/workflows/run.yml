@@ -11,8 +11,8 @@ jobs:
       image: codetyio/codety:latest
       env:
         CODETY_RUNNER_DEBUG: true
+        CODETY_TOKEN: ${{ secrets.CODETY_TOKEN }}
     steps:
       - uses: actions/checkout@main
       - run: codety
-        env:
-          CODETY_TOKEN: ${{ secrets.CODETY_TOKEN }}
+
