@@ -1,6 +1,6 @@
  x = 2;
  let a = 3;
- const b = x;
+ const b = x; //
 
  /**
      * This function does something see example below:
