@@ -11,12 +11,12 @@ jobs:
       pull-requests: write
       contents: read
     container:
-      image: codetyio/codety:latest
+      image: codetyio/codety:0.002
       env:
         CODETY_RUNNER_DEBUG: true
         CODETY_TOKEN: ${{ secrets.CODETY_TOKEN }}
     steps:
-      - uses: actions/checkout@main
+      #- uses: actions/checkout@main
       - run: codety
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
