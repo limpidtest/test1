@@ -4,7 +4,7 @@
  import SearchInput from "./SearchInput";
  import EmojiResults from "./EmojiResults";
  import filterEmoji from "./filterEmoji";
-
+let a=1;
  export default class App extends PureComponent {
    constructor(props) {
      super(props);
