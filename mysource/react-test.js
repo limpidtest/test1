@@ -19,7 +19,6 @@
      });
    };
 
-
    render() {
      return (
        "<div> <Header /><SearchInput textChange={this.handleSearchChange} /><EmojiResults emojiData={this.state.filteredEmoji} /></div>"
